@@ -18,7 +18,7 @@ function App() {
   ]
 
   return (  
-    <div className="bg-background dark flex flex-col items-center">
+    <div className="bg-background dark flex flex-col items-center overflow-x-hidden overscroll-behavior-y-contain">
       {/* Hero Section */}
       <Hero />
 
