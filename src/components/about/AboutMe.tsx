@@ -1,11 +1,8 @@
-import React, { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './about.css'
 import { TypingAnimation } from '../ui/typing-animation'
 
-
-type Props = {}
-
-const AboutMe = (props: Props) => {
+const AboutMe = () => {
 
   const [loadFinished, setLoadFinished] = useState(false)
 

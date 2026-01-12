@@ -1,11 +1,8 @@
-import React from 'react'
 import { TypingAnimation } from '../ui/typing-animation'
 import { InteractiveGridPattern } from '../ui/interactive-grid-pattern'
 import { cn } from '@/lib/utils'
 
-type Props = {}
-
-const Hero = (props: Props) => {
+const Hero = () => {
 
   let phrases = [
     "I'm a Developer.",
