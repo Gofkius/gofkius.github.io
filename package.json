@@ -1,6 +1,6 @@
 {
   "name": "portfolio2026",
-  "homepage": "https://gofkius.dev/",
+  "homepage": "https://gofkius.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
