@@ -1,0 +1,9 @@
+.about, .aboutTab, .aboutImage {
+    border-color: rgb(68, 255, 68);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 200;
+}
+
+.aboutbodytext {
+    font-weight: 400;
+}
