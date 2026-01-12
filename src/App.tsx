@@ -8,13 +8,13 @@ import Contact from "./components/contact/Contact"
 function App() {
 
   let images = [
-    "src/assets/logos/java.png",
-    "src/assets/logos/typescript.png",
-    "src/assets/logos/react.png",
-    "src/assets/logos/node.svg",
-    "src/assets/logos/express.png",
-    "src/assets/logos/vite.svg",
-    "src/assets/logos/expo.png",
+    "/logos/java.png",
+    "/logos/typescript.png",
+    "/logos/react.png",
+    "/logos/node.svg",
+    "/logos/express.png",
+    "/logos/vite.svg",
+    "/logos/expo.png",
   ]
 
   return (  
@@ -46,13 +46,13 @@ function App() {
       <h1 className="text-white mb-10 text-large opacity-50">Previous Work Experiences</h1>
 
       <Work title="Lead Developer" company="Dream Direct LLC" duration="Dec 2025 - Present" 
-      description="Responsible for organizing and leading project development as well as carrying out coding and testing tasks." logoUrl="src/assets/logos/dreamdirect.png" 
+      description="Responsible for organizing and leading project development as well as carrying out coding and testing tasks." logoUrl="/logos/dreamdirect.png" 
       />
       <Work title="Full-Stack Developer" company="Freelance" duration="Aug 2025 - Dec 2025"
-      description="Worked with a client to create a custom CRM for their business operations. Utilizing React + Vite and Express.js frameworks." logoUrl="src/assets/logos/gofkius.png" 
+      description="Worked with a client to create a custom CRM for their business operations. Utilizing React + Vite and Express.js frameworks." logoUrl="/logos/gofkius.png" 
       />
       <Work title="Junior Developer Intern" company="Nowake Studio" duration="May 2025 - Jun 2025"
-      description="Worked on creating a prototype no-code tool to manage custom Maya nodes utilizing PySide6 and MayaPy" logoUrl="src/assets/logos/nowake.png" 
+      description="Worked on creating a prototype no-code tool to manage custom Maya nodes utilizing PySide6 and MayaPy" logoUrl="/logos/nowake.png" 
       />
 
       {/* Contact Section */}
@@ -60,9 +60,9 @@ function App() {
       <h1 className="text-white mb-10 text-large opacity-50">Contact</h1>
 
       <div className="flex gap-15 mb-50">
-        <Contact redirectUrl="mailto:eizosas@gmail.com" imageUrl="src/assets/logos/mail.png" altText="Email Icon" />
-        <Contact redirectUrl="https://wa.me/602507738" imageUrl="src/assets/logos/whatsapp.png" altText="WhatsApp Icon" />
-        <Contact redirectUrl="https://github.com/gofkius" imageUrl="src/assets/logos/github.webp" altText="GitHub Icon" />
+        <Contact redirectUrl="mailto:eizosas@gmail.com" imageUrl="/logos/mail.png" altText="Email Icon" />
+        <Contact redirectUrl="https://wa.me/602507738" imageUrl="/logos/whatsapp.png" altText="WhatsApp Icon" />
+        <Contact redirectUrl="https://github.com/gofkius" imageUrl="/logos/github.webp" altText="GitHub Icon" />
       </div>
       <footer className="text-white mb-10 opacity-50">
         Gabrielius Dikcius

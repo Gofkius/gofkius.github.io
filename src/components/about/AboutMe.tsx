@@ -24,7 +24,7 @@ const AboutMe = () => {
     <div className='about relative bg-background dark border-1 w-[50rem] h-[20rem] text-white mb-20'>
         <div className='aboutTab w-full h-[2rem] border-b-1 font-jetbrains-mono flex items-center px-2 m-0'>
             <h1>about_me</h1>
-            <img className="ml-auto h-[2rem]" src="src/assets/about-close.svg" alt="About Icon" />
+            <img className="ml-auto h-[2rem]" src="/about-close.svg" alt="About Icon" />
         </div>
         {!loadFinished && (
           <div className='p-2 m-0 h-[5rem] w-full'>
@@ -45,7 +45,7 @@ const AboutMe = () => {
             <br />
           </div>
           <div className='aboutImage overflow-y-hidden border-l-1 p-3 min-w-[18rem] h-full'>
-            <img className='h-full w-full object-cover rounded-[50%]' src="src/assets/me2.jpeg" alt="About Me Photo" />
+            <img className='h-full w-full object-cover rounded-[50%]' src="/me2.jpeg" alt="About Me Photo" />
           </div>
         </div>
         )}
