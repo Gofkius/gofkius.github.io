@@ -34,7 +34,7 @@ const AboutMe = () => {
         {loadFinished && (
         <div className='relative m-0 p-0 h-[calc(100%-2rem)] flex flex-row'>
           <div className='aboutbodytext p-2 h-full w-[calc(100%-18rem)]'>
-            <p>20 y/o computer science student looking for opportunities to grow
+            <p>21 y/o computer science student looking for opportunities to grow
               and contribute in the tech industry. Currently working as a
               full-stack developer at <a className='underline' href='https://www.dreamdirectllc.com/' target='_blank'>Dream Direct LLC</a>
             </p>
