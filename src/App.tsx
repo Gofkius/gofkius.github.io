@@ -27,7 +27,7 @@ function App() {
 
       {/* Tech Stack */}
 
-      <h1 className="text-white mb-10 text-large opacity-50">Tech Stack</h1>
+      <h1 className="text-white mb-10 text-xl md:text-2xl opacity-50 text-center px-4">Tech Stack</h1>
       <Marquee className={
         cn(
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
@@ -43,7 +43,7 @@ function App() {
       </Marquee>
 
       {/* Previous work experiences */}
-      <h1 className="text-white mb-10 text-large opacity-50">Previous Work Experiences</h1>
+      <h1 className="text-white mb-10 text-xl md:text-2xl opacity-50 px-4 text-center">Previous Work Experiences</h1>
 
       <Work title="Lead Developer" company="Dream Direct LLC" duration="Dec 2025 - Present" 
       description="Responsible for organizing and leading project development as well as carrying out coding and testing tasks." logoUrl="/logos/dreamdirect.png" 
@@ -57,9 +57,9 @@ function App() {
 
       {/* Contact Section */}
 
-      <h1 className="text-white mb-10 text-large opacity-50">Contact</h1>
+      <h1 className="text-white mb-10 text-xl md:text-2xl opacity-50 px-4 text-center">Contact</h1>
 
-      <div className="flex gap-15 mb-50">
+      <div className="flex gap-8 md:gap-15 mb-40 md:mb-50 flex-wrap justify-center px-6">
         <Contact redirectUrl="mailto:eizosas@gmail.com" imageUrl="/logos/mail.png" altText="Email Icon" />
         <Contact redirectUrl="https://wa.me/602507738" imageUrl="/logos/whatsapp.png" altText="WhatsApp Icon" />
         <Contact redirectUrl="https://github.com/gofkius" imageUrl="/logos/github.webp" altText="GitHub Icon" />

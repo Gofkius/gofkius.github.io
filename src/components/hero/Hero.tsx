@@ -13,10 +13,10 @@ const Hero = () => {
   return (
     <div className="bg-background relative flex h-[600px] w-full items-center justify-center dark">
       <div className="flex flex-col items-center justify-center relative">
-        <TypingAnimation className="text-6xl font-bold mb-4 z-10 dark:text-white">Hey, I'm Gabriel! 👋</TypingAnimation>
+        <TypingAnimation className="text-4xl md:text-6xl font-bold mb-4 z-10 dark:text-white text-center px-4">Hey, I'm Gabriel! 👋</TypingAnimation>
         <TypingAnimation
 
-          className="text-2xl z-10 dark:text-white"
+          className="text-xl md:text-2xl z-10 dark:text-white text-center px-4"
           words={[
             phrases[0],
             phrases[1],
